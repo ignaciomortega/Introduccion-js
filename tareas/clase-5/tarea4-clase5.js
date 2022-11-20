@@ -28,7 +28,7 @@ function encontrarPromedio(arrayNumeros){
 }
 
 function encontrarNumeroMasRepetido(arrayNumeros){
-    numeroMasFrecuente = arrayNumeros[0];
+    let numeroMasFrecuente = arrayNumeros[0];
     for (let i = 0 ; i < arrayNumeros ; i++){
         frecuenciaLocal = 0 ;
         for (let j = 0 ; j < arrayNumeros ; j++){
