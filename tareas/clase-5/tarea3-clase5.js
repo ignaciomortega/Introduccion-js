@@ -39,8 +39,8 @@ function sumarHoras(){
     let totalHoras = 0;
     const cantidadVideosDeclarados = document.querySelectorAll(".video");
 
-    for( let i = 1 ; i <= cantidadVideosDeclarados.length ; i++ ){
-        let horas = document.querySelector(`horas-video${i}`);
+    for( let j = 1 ; j <= cantidadVideosDeclarados.length ; j++ ){
+        let horas = document.querySelector(`#horas-video${j}`);
         totalHoras += Number(horas.value);
     }
 
@@ -51,8 +51,8 @@ function sumarMinutos(){
     let totalMinutos = 0;
     const cantidadVideosDeclarados = document.querySelectorAll(".video");
 
-    for( let i = 1 ; i <= cantidadVideosDeclarados.length ; i++ ){
-        let minutos = document.querySelector(`minutos-video${i}`);
+    for( let j = 1 ; j <= cantidadVideosDeclarados.length ; j++ ){
+        let minutos = document.querySelector(`#minutos-video${j}`);
         totalMinutos += Number(minutos.value);
     }
 
@@ -63,8 +63,8 @@ function sumarSegundos(){
     let totalSegundos = 0;
     const cantidadVideosDeclarados = document.querySelectorAll(".video");
 
-    for( let i = 1 ; i <= cantidadVideosDeclarados.length ; i++ ){
-        let segundos = document.querySelector(`segundos-video${i}`);
+    for( let j = 1 ; j <= cantidadVideosDeclarados.length ; j++ ){
+        let segundos = document.querySelector(`#segundos-video${j}`);
         totalSegundos += Number(segundos.value);
     }
 
