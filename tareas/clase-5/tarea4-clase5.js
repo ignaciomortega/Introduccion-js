@@ -8,7 +8,7 @@ const arrayNumerosLista = [];
 
 for (let i = 0 ; i < $NUMEROS_LISTA.length ; i ++){
         arrayNumerosLista.push($NUMEROS_LISTA[i].innerText);
-        arrayNumerosLista.sort(function(a, b){return a - b})
+        arrayNumerosLista.sort(function(a, b){return a - b});
 }
 
 $NUMERO_MAYOR.innerText = `El mayor número en la lista es ${arrayNumerosLista.at(-1)}`;
