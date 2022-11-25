@@ -53,7 +53,6 @@ function promediarEdades(arrayNumeros){
 
 $botonCalcularEstadisticas.onclick = function(){
     const nodeListEdades = document.querySelectorAll(".input-edad");
-    console.log(nodeListEdades);
     let edades = ordenarEdades(nodeListEdades);
     let promedio = promediarEdades(edades);
 
